@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head charset="UTF-8">
+		<title>Registre sua classe!</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<img src="logo.png" alt="LOGO DO SITE">
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="classes.html">Classes</a></li>
+						<li><a href="ficha.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="fundo3">
+			
+				<form>
+					<label for="nomepersonagem"> Digite o nome do seu personagem:</label>
+					<input type="text" id="nomepersonagem" class="input-padrao" required placeholder="Astronimus Sabaticus">
+
+					<label for="classe"> Classe</label>
+					<input type="text" id="classe" class="input-padrao" required placeholder="Anão, Elfo, Orc e etc...">
+
+					<label for="genero"> Gênero</label>
+					<input type="text" id="genero" class="input-padrao" required placeholder="Masc/Fem">
+
+					<label for="mensagem">História do Personagem</label>
+					<textarea cols="70" rows="10" id="mensagem " class="input-padrao" required placeholder="Digite sua história aqui...."></textarea>
+					<fieldset>
+						<legend class="prefere">Qual a raça desejada?</legend>
+
+						<label for="radio-elfo"><input type="radio" value="elfo" id="radio-elfo" checked>Elfo
+						</label>
+						
+						<label for="radio-humano"><input type="radio" value="humano" id="radio-humano">Humano</label>
+						
+						<label for="radio-anao"><input type="radio" value="anao" id="radio-anao" >Anão</label>
+
+						<label for="radio-orc"><input type="radio" value="orc" id="radio-orc" >Orc</label>
+						
+					</fieldset>
+					<fieldset>
+							<legend class="pergunta"> Qual habilidade seu personagem terá </legend>
+							<select>
+								<option>Consumir Corpos dos Orcs</option>
+								<option>Dialética dos Humanos</option>
+								<option>Sorte dos Anões</option>
+								<option>Olho Afiado dos Elfos</option>
+							</select>
+					</fieldset>
+
+					<label><input type="checkbox" class="checkbox">Gostaria de participar das atividades semanas da guilda?</label>
+			
+					<input type="submit" value="Enviar Formulário" class="enviar">
+				</form>
+
+				<table>
+						<tr>
+							<td>DIAS DAS SESSÕES</td>
+
+							<td> HORÁRIO DAS SESSÕES</td>
+						</tr>
+						<tr>
+							<td>Segunda</td> <td>8h - 20h</td>
+						</tr>
+						<tr>
+							<td>Quarta</td>
+							<td>8h - 20h</td>
+						</tr>
+						<tr>
+							<td>Sexta</td>
+							<td>8h - 20h</td>
+						</tr>
+				</table>
+			
+		</main>
+
+		<footer>
+			<p class="copyright">Copyright Heaven's Paradise - 2023</p>
+		</footer>
+	</body>
+</html>

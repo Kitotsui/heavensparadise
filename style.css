@@ -1,0 +1,272 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+  }
+
+#banner {
+	width: 100%
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+  }
+
+p {
+	text-align: center;
+  }
+
+#missao {
+	font-size: 20px;
+  }
+
+i {
+	color: red;
+	font-style: italic;
+  }
+
+i u {
+	color: blue;
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20%;
+}
+
+.lista-bene {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.itens {
+	font-style: italic;
+  }
+
+
+.principal{
+
+	background-image: url("fundo-index.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	max-height: 100%;
+	height: 900px;
+	width: 100%px;
+	color: #FFFFFF;
+
+}
+
+.texto{
+	font-size: 30px;
+}
+
+
+/* definições para a página de Produtos */
+
+header {
+	background: #000000;
+	padding: 20px;
+}
+
+div img
+{
+	left:120px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: -10px;
+	right: 200px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-style: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#C78C19;
+	text-decoration: underline;
+}
+
+main ul li {
+	color:#FFFFFF;
+}
+
+.barb{
+	left:20px;
+}
+
+.bg-img{
+	background-image: url("fundo2.jpg");
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	height: 40%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding:  30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.classe-descricao {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 40px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 40px;
+	margin: 20px 0 0 0;
+}
+
+.barb img{
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+}
+
+.mage img{
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+}
+
+.necro img{
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+}
+
+/* definições para pagina contato*/
+
+form{
+	margin :40px 0;
+}
+
+form label, form .prefere{
+	display:block;
+	font-size: 20px;
+	margin:0 0 10px;
+	text-align: left;
+}
+
+form .input-padrao{
+	display: block;
+	margin:0 0 20px;
+	padding:10px 20px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.video{
+	text-align: center;
+	}
+
+h3{
+	bottom: 20px;
+	text-align: center;
+	font-size: 300%;
+}
+
+table{
+	text-align: center;
+}
+
+h3::first-letter {
+    font-size: 100px;
+    font-weight: bold;
+    color: brown;
+}
+
+
+h2::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: brown;
+}
+
+
+.fundo3 {
+
+	overflow:auto;
+	background-image: url("fundo-ficha.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	color: #FFFFFF;
+
+}
