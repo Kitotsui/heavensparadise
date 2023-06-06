@@ -270,3 +270,42 @@ h2::first-letter {
 	color: #FFFFFF;
 
 }
+
+
+ul img{
+	opacity: 0.4;
+	transition: 400ms;
+	box-shadow: 5px 5px 5px #000000;
+
+}
+
+ul img:hover{
+	opacity: 1;
+}
+
+section h3{
+	color: rgba(0,0,0,0.4);
+	text-shadow: 2px 2px #FF0000;
+}
+
+.principal h2{
+	color:rgba(0, 0, 0, 0.4);
+	text-shadow: 2px 2px #FF0000;
+}
+
+.menu ul li{
+	position: absolute;
+	top: 30px;
+	left:0px;
+	background-color: #AAAAAA;
+	display: none;
+}
+
+.menu li:hover ul{
+	display: block;
+}
+
+.menu li ul li{
+	display: block;
+	width: 200px;
+}
